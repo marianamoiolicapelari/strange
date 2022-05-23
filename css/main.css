@@ -78,7 +78,7 @@ main {
   }
 
   .content-container h1 {
-    font-size: 4rem;
+    width: 200px;
   }
   
   .movie-text {
