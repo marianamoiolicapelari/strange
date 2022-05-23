@@ -4,8 +4,8 @@ html, body {
 }
 body {
   height: 100vh;
-  background: linear-gradient(90deg, #000, #000D 35%, #0000),
-  url(../assets/background.png);
+  background: linear-gradient(90deg, #000, #000B 35%, #0000),
+  url(../assets/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right;
@@ -18,7 +18,7 @@ body {
 @media (max-width:768px) {
   body {
     padding: 30px 30px 25px 30px;
-    background-image: url(../assets/background.png);
+    background-image: url(../assets/background.jpg);
     background-color: #0006;
     background-blend-mode: darken;
   }

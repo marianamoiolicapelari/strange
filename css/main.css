@@ -12,28 +12,12 @@ main {
 }
 
 .content-container h1 {
-  font-size: 7rem;
-  display: flex;
-  flex-direction: column;
-  font-weight: 400;
-}
-
-.content-container h1 span {
-  font-size: 2rem;
-  font-weight: 200;
-  transform: translateY(30px)
-}
-
-.movie-title {
-  font-size: 2.6rem;
-  font-style: italic;
-  color: #E62721;
-  transform: translateY(-20px);
+  width: 400px;
 }
 
 .movie-text {
   width: 560px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -46,8 +30,9 @@ main {
   font-size: 1.5rem;
   font-weight: 200;
   border-radius: 10px;
-  background-color: #E62721;
+  background-color: rgba(146,13,2,1);
   margin-top: 30px;
+  box-shadow: 2px 2px 8px #ff2515;
 }
 
 .social-container {
@@ -70,16 +55,20 @@ main {
   align-items: center;
   border-radius: 50%;
   border: 2px solid #fff;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .social-container i {
   font-size: 1.5rem;
 }
 
+.social-container i:hover {
+  color: rgba(146,13,2,1);
+}
+
 .social-container li:hover {
-  background-color: #E62721;
-  border-color: #E62721;
+  background-color: #000000;
+  border-color: rgba(146,13,2,1);
 }
 
 @media (max-width:768px) {
@@ -91,16 +80,7 @@ main {
   .content-container h1 {
     font-size: 4rem;
   }
-
-  .content-container h1 span {
-    font-size: 1.5rem;
-    transform: translateY(15px);
-  }
-
-  .movie-title {
-    font-size: 1.45rem;
-    transform: translateY(5px);
-  }
+  
   .movie-text {
     display: none;
   }
