@@ -28,7 +28,12 @@ main {
   border-radius: 10px;
   background-color: rgba(146,13,2,1);
   margin-top: 30px;
-  box-shadow: 2px 2px 8px #ff2515;
+  box-shadow: 2px 2px 5px #ff2515;
+}
+
+.movie-button:hover {
+  color: #000000;
+  background-color: #ff2515;
 }
 
 .social-container {
@@ -71,15 +76,23 @@ main {
 @media (max-width:768px) {
   .content-container {
     justify-content: flex-end;
-    margin-bottom: 130px;
+    margin-bottom: 140px;
   }
 
   .content-container img {
-    width: 300px;
+    width: 250px;
+    height: 140px;
   }
   
   .movie-text, .social-container {
     display: none;
+  }
+
+  .movie-button {
+    height: 70px;
+    width: 250px;
+    font-size: 1.3rem;
+    font-weight: 150;
   }
    
 }
