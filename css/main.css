@@ -76,6 +76,7 @@ main {
 @media (max-width:768px) {
   .content-container {
     justify-content: flex-end;
+    align-items: center;
     margin-bottom: 140px;
   }
 
