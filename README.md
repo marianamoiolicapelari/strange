@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-Esse projeto foi elaborado para web e mobile. Para acessar basta clicar no link abaixo:
+Esse projeto foi elaborado para vizualizar/interagir em desktop e mobile. Para acessar basta clicar no link abaixo:
 
 https://strangerthings4.netlify.app
 
