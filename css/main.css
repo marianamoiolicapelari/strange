@@ -11,10 +11,6 @@ main {
   color: #fff;
 }
 
-.content-container h1 {
-  width: 400px;
-}
-
 .movie-text {
   width: 560px;
   font-size: 1rem;
@@ -38,6 +34,7 @@ main {
 .social-container {
   width: 48px;
 }
+
 .social-container ul {
   height: 100%;
   display: flex;
@@ -74,19 +71,16 @@ main {
 @media (max-width:768px) {
   .content-container {
     justify-content: flex-end;
-    margin-bottom: 50px;
+    margin-bottom: 130px;
   }
 
-  .content-container h1 {
-    width: 200px;
+  .content-container img {
+    width: 300px;
   }
   
-  .movie-text {
+  .movie-text, .social-container {
     display: none;
   }
-
-  .social-container {
-    display: none;
-  }
+   
 }
 

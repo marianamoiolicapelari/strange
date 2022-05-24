@@ -18,8 +18,8 @@ body {
 @media (max-width:768px) {
   body {
     padding: 30px 30px 25px 30px;
-    background-image: url(../assets/background.jpg);
-    background-color: #0006;
+    background-image: url(../assets/background-mobile.png);
+    background-color: #0007;
     background-blend-mode: darken;
   }
 }
