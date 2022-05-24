@@ -93,7 +93,9 @@ main {
     width: 250px;
     font-size: 1.3rem;
     font-weight: 150;
+    background-color: rgba(146,13,2,1);
   }
    
 }
+
 
