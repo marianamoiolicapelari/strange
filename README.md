@@ -1,11 +1,11 @@
-# Landing Page Responsiva
+# Landing Page Responsiva - Stranger Things 4 
 
 ## 💻 Sobre o Projeto
 Landing Page com o tema Strange Things 4 criada para trabalhar tanto em desktop quanto em mobile. Projeto feito para aplicar os conhecimentos em medidas responsivas e display flex ou flexbox. O JavaScript entra nesse projeto somente para alternar o menu para a versão mobile.
 
 ## 🎨 Layout
 
-![image]()
+![image](https://github.com/marianamoiolicapelari/strange/blob/main/assets/stranger-layoult.png)
 
 ## 🛠 Tecnologias
 
@@ -17,7 +17,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 💡 Como executar o projeto
 
-Esse projeto foi elaborado para web e mobile. Para acessar basta clicar no link abaixo:
+Esse projeto foi elaborado para vizualizar/interagir em desktop e mobile. Para acessar basta clicar no link abaixo:
 
 https://strangerthings4.netlify.app
 
