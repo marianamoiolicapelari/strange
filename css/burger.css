@@ -42,4 +42,10 @@
   transform: rotate(-45deg);
 }
 
+@media (max-width: 768px) {
+  .menu-burger-container {
+      display: flex;
+  }
+}
+
 
