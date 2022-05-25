@@ -73,7 +73,7 @@ main {
   border-color: rgba(146,13,2,1);
 }
 
-@media (max-width:768px) {
+@media (max-width:600px) {
   .content-container {
     justify-content: flex-end;
     align-items: center;
