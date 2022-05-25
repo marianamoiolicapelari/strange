@@ -99,4 +99,10 @@ main {
    
 }
 
+@media (max-width:400px) {
+  .content-container {
+    justify-content: flex-end;
+    align-items: center;
+  }
+
 
